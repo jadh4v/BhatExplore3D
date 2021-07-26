@@ -1,4 +1,4 @@
-# Volume Exploration Using MultidimensionalBhattacharyya Flow
+# Volume Exploration Using Multidimensional Bhattacharyya Flow
 ---
 ## Project Description
 We present a novel approach for volume exploration that is versatile yet effective in isolating semantic structures in both noisyand clean data. Specifically, we have implemented a hierarchical active contours approach based on Bhattacharyya gradient flow which is easier to control, robust to noise, and can incorporate various types of statistical information to drive an edge-agnostic exploration process.
