@@ -5,13 +5,15 @@ We present a novel approach for volume exploration that is versatile yet effecti
 
 ---
 ## Dependencies to Build
-[VTK 9.0.1](https://gitlab.kitware.com/vtk/vtk/-/tree/v9.0.3)
-[ITK 5.0.1](https://github.com/InsightSoftwareConsortium/ITK/tree/v5.0.1)
-[Qt 5.15](https://www.qt.io/blog/qt-5.15-released)
-CUDA 10.2
-[libglm 0.9.8.4](https://github.com/g-truc/glm)
-libglew
-[LIBICS C++ library](https://svi-opensource.github.io/libics)
+Build using CMake 3.14 or higher, and Visual Studio Community 2017 or higher. Tested on Windows 10 64-bit.  
+
+[VTK 9.0.1](https://gitlab.kitware.com/vtk/vtk/-/tree/v9.0.3)  
+[ITK 5.0.1](https://github.com/InsightSoftwareConsortium/ITK/tree/v5.0.1)  
+[Qt 5.15](https://www.qt.io/blog/qt-5.15-released)  
+CUDA 10.2  
+[libglm 0.9.8.4](https://github.com/g-truc/glm)  
+libglew  
+[LIBICS C++ library](https://svi-opensource.github.io/libics)  
 
 ---
 ## Citation
