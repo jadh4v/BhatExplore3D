@@ -14,6 +14,7 @@ CUDA 10.2
 [libglm 0.9.8.4](https://github.com/g-truc/glm)  
 libglew  
 [LIBICS C++ library](https://svi-opensource.github.io/libics)  
+[Eigen3](https://gitlab.com/libeigen/eigen/-/tree/3.3)  
 
 ---
 ## Citation

@@ -29,7 +29,6 @@ set(DS_SOURCES
     Bitvector.h
     BoundingBox.cpp
     BoundingBox.h
-    codebase.h
     CompressedSegment.cpp
     CompressedSegment.h
     CompressedSegmentation.cpp

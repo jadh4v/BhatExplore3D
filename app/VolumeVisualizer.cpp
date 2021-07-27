@@ -112,7 +112,7 @@ VolumeVisualizer::VolumeVisualizer(QWidget* parent) : QWidget(parent)
     m_VolRen = new VolumeRenderer(this);
     m_VolRen->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
     m_VolRen->setMinimumSize(512, 512);
-    m_VolRen->SetRayProgramPath("F:/github/Bhattacharyya/Graphics/volume_rendering.vert.glsl", "F:/github/Bhattacharyya/app/volume_rendering.frag.glsl");
+    m_VolRen->SetRayProgramPath("F:/github/BhatExplore3D/Graphics/volume_rendering.vert.glsl", "F:/github/BhatExplore3D/app/volume_rendering.frag.glsl");
     QHBoxLayout* layout = new QHBoxLayout();
     this->setLayout(layout);
     layout->addWidget(m_VolRen);

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.1 FATAL_ERROR)
-project(Bhattacharya LANGUAGES CXX CUDA)
+project(Bhattacharyya LANGUAGES CXX CUDA)
 
 # Find includes in corresponding build directories
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
@@ -123,14 +123,14 @@ find_package(zlib REQUIRED)
 set(LIBICS_CPP_DIR "C:/Program\ Files/libics/cmake")
 include_directories("${LIBICS_CPP_DIR}/../include")
 
-cuda_add_executable(Bhattacharya  
+cuda_add_executable(Bhattacharyya  
      ${BHATT_SOURCES}
      ${GENERATED_SOURCES}
      ${BHATT_UIS}
      cpp.hint
     )
 
-target_link_libraries(Bhattacharya
+target_link_libraries(Bhattacharyya
 	Core DS Bhat IO vpcommon Utils #GraphSeg
     Graphics DistField
     ${GLEW_LIBRARIES} Qt5::Core Qt5::Widgets Qt5::OpenGL Qt5::Gui Qt5::Quick Qt5::QuickWidgets
